@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!--Changed File Name-->
     <title>Portfolio</title>
+    <style>
+     .images:hover{
+        opacity: 0.75;
+     } 
+    </style>
   </head>
   <body style="background-image: url(Assets/Images/IMG_9315.JPG)"> 
     <nav class="navbar navbar-expand-md navbar-light" style="background-color: lightcyan">
@@ -20,9 +25,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <!--added portfolio.html to button-->
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
                 <!--added portfolio.html to button-->
@@ -40,18 +45,29 @@
       <div class="col-8-sm m-5 p-3" style="background-color: lightgrey"><h2>Portfolio</h2>
           <hr>
           <div class="container">
-            <div class="row mx-auto">    
-                <img class="portrait m-1 p-2 image-fluid" 
-                src="Assets/Images/IMG_0016 2.jpeg" alt="Petey Pup" style="max-width: 200px; max-height: 200px;">                
-                <img class="portrait m-1 p-2 image-fluid"
-                src="Assets/Images/IMG_7771 2.jpeg" alt="Light Smile" style="max-width: 200px; max-height: 200px;">
-                <img class="portrait m-1 p-2 image-fluid" 
-                src="Assets/Images/IMG_0156 2.jpeg" alt="Darwin" style="max-width: 200px; max-height: 200px;">
-              
-                <img class="portrait m-1 p-2 image-fluid"
-                src="Assets/Images/IMG_0696 2.jpeg" alt="Scarry Cat" style="max-width: 200px; max-height: 200px;">
-                <img class="portrait m-1 p-2 image-fluid"
-                src="Assets/Images/IMG_0681 2.jpeg" alt="Sillyness" style="max-width: 200px; max-height: 200px;">
+            <div class="row mx-auto">
+              <div class="connectedPolitics">
+                  <h3>Connected Politics</h3>   
+                  <a href="https://ryandelonhull.github.io/connected-politics/" class="images">
+                    <img class="portrait m-1 p-2 image-fluid" 
+                    src="Assets/Images/Screenshot2.png" alt="Connected-Politics" style="max-width: 400px; max-height: 200px;">
+                  </a>
+              </div>
+              <div>
+                  <h3>Day Planner</h3>
+                  <a href=" https://ryandelonhull.github.io/Day-Planner/" class="images">
+                    <img class="portrait m-1 p-2 image-fluid"
+                    src="Assets/Images/Day-planner-application.png" alt="Day-Planner" style="max-width: 400px; max-height: 240px;">
+                  </a>
+              </div>
+              <div></div>
+                  <h3>A Silly Quiz to Help You Unwind</h3>
+                  <a href="https://ryandelonhull.github.io/Code-Quiz/" class="images">
+                    <img class="portrait m-1 p-2 image-fluid" 
+                    src="Assets/Images/websiteInAction.png" alt="Quiz" style="max-width: 400px; max-height: 235px;">
+                  </a>
+              </div>
+              <a href="https://github.com/ryandelonhull"><h3>Github Repository</h3></a>
             </div>
           </div>
       </div>
