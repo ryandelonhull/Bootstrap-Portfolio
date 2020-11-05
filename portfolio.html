@@ -14,35 +14,29 @@
         opacity: 0.75;
      } 
     </style>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body style="background-image: url(Assets/Images/IMG_9315.JPG)"> 
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: lightcyan">
-        <div class="p-3 mb-2 bg-info text-white">
-            <a class="navbar-brand" href="#">Ry Hull</a>
-        </div>    
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <body style="background-image: url(Assets/Images/25573.jpg)"> 
+      <div class="dropdown dropdown-menu-right">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+          <img src="Assets/Images/ry-author-copy.png" id="icon">
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <!--added portfolio.html to button-->
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <!--added portfolio.html to button-->
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <!--added contact.html to button-->
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="index.html">About</a>
+          <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+          <a class="dropdown-item" href="contact.html">Contact</a>
         </div>
-    </nav>
+      </div>
+      <div class="p-3 mb-2 bg-info text-white">
+            <a class="navbar-brand" href="#"><h2>Ry Hull</h2></a>
+      </div>    
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+    <!-- </nav> -->
     <!--Added container for portfolio-->
-    <div class="container">      
-      <div class="col-8-sm m-5 p-3" style="background-color: lightgrey"><h2>Portfolio</h2>
+    <div class="container" id="portfolio-container">      
+      <div class="col-8-sm m-5 p-3"><h2>Portfolio</h2>
           <hr>
           <div class="container">
             <div class="row mx-auto">
@@ -54,32 +48,35 @@
                   </a>
               </div>
               <div>
-                  <h3>Day Planner</h3>
-                  <a href=" https://ryandelonhull.github.io/Day-Planner/" class="images">
+                  <h3>1UP VideoGame Database</h3>
+                  <a href="https://oneupdb.herokuapp.com/" class="images">
                     <img class="portrait m-1 p-2 image-fluid"
-                    src="Assets/Images/Day-planner-application.png" alt="Day-Planner" style="max-width: 400px; max-height: 240px;">
+                    src="Assets/Images/1upvgdb.png" alt="Day-Planner" style="max-width: 400px; max-height: 240px;">
                   </a>
               </div>
-              <div></div>
-                  <h3>A Node-Express-Handlebars Burgerama</h3>
+              <div>
+                  <h3>Burgerama Express App</h3>
                   <a href="https://thawing-beyond-08187.herokuapp.com/" class="images">
                     <img class="portrait m-1 p-2 image-fluid" 
                     src="Assets/Images/Burger-in-use.png" alt="Quiz" style="max-width: 400px; max-height: 235px;">
                   </a>
               </div>
-              <a href="https://github.com/ryandelonhull"><h3>Github Repository</h3></a>
+              <div>
+                <h3>Github Repository</h3>
+                <a href="https://github.com/ryandelonhull">
+                  <img class="portrait m-1 p-2 image-fluid" 
+                  src="Assets/Images/github.png" alt="github" style="max-width: 400px; max-height: 235px;">
+                </a>
+              </div> 
             </div>
           </div>
       </div>
     </div>
-    <!--Added footer-->
-    <footer class="fixed-bottom" style="background-color: lightcyan;">
-      <div class="text-center" style="border-top: 5px solid; border-top-color: lightseagreen;">
+    <footer class="fixed-bottom bg-info text-white">
+      <div class="text-center" style="border-top: 5px solid;  border-top-color: lightseagreen;">
         <p>© Copyright</p>
       </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

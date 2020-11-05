@@ -1,0 +1,17 @@
+#icon {
+    height: 50px;
+    width: 50px;
+   
+}
+#menu1 {
+    float: right;
+}
+#portfolio-container {
+    background-image: linear-gradient(to right, orange , purple);
+}
+#index-container {
+    background-image: linear-gradient(to right, yellow , purple);
+}
+#contact-container {
+    background-image: linear-gradient(to right, blue, purple);
+}

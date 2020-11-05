@@ -1,70 +1,47 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--Changed site name-->
-    <title>Portfolio</title> 
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body style="background-image: url(Assets/Images/IMG_9315.JPG)"> 
-  <!--Added navbar-->
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: lightcyan">
-        <div class="p-3 mb-2 bg-info text-white">
-            <a class="navbar-brand" href="#">Ry Hull</a>
-        </div>    
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <!--Added html link and name-->
-              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <!--Added html link and name-->
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <!--Added html link and name-->
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    <!--Added container for about me -->
-    <div class="container-md">
-      
-        <div class="col-8 m-5 p-3" style="background-color: lightgrey">
-          <div class="span4">
-              <h2>About Me</h2>
-              <hr>
-            <div class="float-left">
-                <img class="portrait m-3"
-                src="Assets/Images/IMG_8135.jpeg" alt="Ry smiling" width=150 height=150>
-            </div>  
-           
-              <p>I have an unhealthy obsession with jigsaw puzzles and puzzle video games. Simultaneously calming and invigorating, they have always been a nice repose from the daily grind. Coding gives me that same feeling. </p>
-              <p>I will finish a coding bootcamp in December and ready to start my career. While working in a fulltime bootcamp that has been very thourough and as hands-on as possible i am looking forward to the next step.</p> 
-          
-          </div>
-          <a href="https://github.com/ryandelonhull"><h3>Github Repository</h3></a>
-          <a href="https://docs.google.com/document/d/1fNzXuV-SX1jWznRq_PfvUiTrBcpfL71i1Lid91G-icQ/edit?usp=sharing"><h3>Resume</h3></a>
-        </div>
-      
+  <body style="background-image: url(Assets/Images/25573.jpg)"> 
+  <div class="dropdown dropdown-menu-right">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+      <img src="Assets/Images/ry-author-copy.png" id="icon">
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="index.html">About</a>
+      <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+      <a class="dropdown-item" href="contact.html">Contact</a>
     </div>
-    <!--Added footer-->
-    <footer class="fixed-bottom" style="background-color: lightcyan;">
+  </div>
+  <div class="p-3 mb-2 bg-info text-white">
+        <a class="navbar-brand" href="#"><h2>Ry Hull</h2></a>
+  </div>  
+  <div class="container-md" id="index-container"> 
+    <div class="col-8 m-5 p-3">
+      <div class="span4">
+          <h2>About Me</h2>
+          <hr>
+        <div class="float-left">
+            <img class="portrait m-3"
+            src="Assets/Images/IMG_8135.jpeg" alt="Ry smiling" width=150 height=150>
+        </div>  
+          <p>I have an unhealthy obsession with jigsaw puzzles and puzzle video games. Simultaneously calming and invigorating, they have always been a nice repose from the daily grind. Coding gives me that same feeling. </p>
+          <p>I will finish a coding bootcamp in December and ready to start my career. While working in a fulltime bootcamp that has been very thourough and as hands-on as possible i am looking forward to the next step.</p> 
+      </div>
+      <a href="https://github.com/ryandelonhull"><h3>Github Repository</h3></a>
+      <a href="https://docs.google.com/document/d/1fNzXuV-SX1jWznRq_PfvUiTrBcpfL71i1Lid91G-icQ/edit?usp=sharing"><h3>Resume</h3></a>
+    </div> 
+  </div>
+    <footer class="fixed-bottom bg-info text-white">
       <div class="text-center" style="border-top: 5px solid;  border-top-color: lightseagreen;">
         <p>© Copyright</p>
       </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
